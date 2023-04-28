@@ -1,0 +1,32 @@
+@import "../fonts/fonts.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    max-width: 920px;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    background-color: #f6f8fA;
+}
+
+.main .textarea {
+    width: 540px;
+    max-width: 860px;
+    padding: 12px;
+    margin: 20px 0 0;
+    border: 1px solid lightgray;
+}
+
+.main .textarea:hover {
+    border-color: #e8e8e8;
+    box-shadow: 1px 1px 17px rgba(0, 0, 0, 0.06);
+}
+
+.main .textarea:active {
+
+}

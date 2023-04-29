@@ -29,7 +29,7 @@ const keyboardKeysEn = [
     { val: 'p' },
     { val: '[' },
     { val: ']' },
-    { value: '\\', subval: '|' },
+    { val: '\\', subval: '|' },
     { val: 'Del' },
   ],
   [
@@ -73,9 +73,7 @@ const keyboardKeysEn = [
     { val: '←' },
     { val: '↓' },
     { val: '→' },
-    { val: '' },
-    { val: '' },
-    { val: '' },
-    { val: '' },
   ],
 ];
+
+export default keyboardKeysEn;

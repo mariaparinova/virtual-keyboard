@@ -1,11 +1,15 @@
 import createTextareaForKeyboard from './func-library/textarea-for-keyboard.js';
+import keyboardKeysEn from './constants/keyboard-en.js';
+import createKeyboard from './func-library/keyboard.js';
 
 function init() {
   const mainElem = document.createElement('main');
   mainElem.className = 'main';
-  document.body.append(mainElem);
 
-  document.querySelector('.main').append(createTextareaForKeyboard());
+  mainElem.append(createTextareaForKeyboard());
+  mainElem.append(createKeyboard(keyboardKeysEn));
+
+  document.body.append(mainElem);
 }
 
 init();

@@ -1,4 +1,4 @@
-const keyboardKeysEn = [
+const keyboardKeysRu = [
   [
     {
       val: '`', subval: '~', code: 'Backquote', print: true,
@@ -48,40 +48,40 @@ const keyboardKeysEn = [
       val: 'Tab', code: 'Tab',
     },
     {
-      val: 'q', code: 'KeyQ', print: true,
+      val: 'й', code: 'KeyQ', print: true,
     },
     {
-      val: 'w', code: 'KeyW', print: true,
+      val: 'ц', code: 'KeyW', print: true,
     },
     {
-      val: 'e', code: 'KeyE', print: true,
+      val: 'у', code: 'KeyE', print: true,
     },
     {
-      val: 'r', code: 'KeyR', print: true,
+      val: 'к', code: 'KeyR', print: true,
     },
     {
-      val: 't', code: 'KeyT', print: true,
+      val: 'е', code: 'KeyT', print: true,
     },
     {
-      val: 'y', code: 'KeyY', print: true,
+      val: 'н', code: 'KeyY', print: true,
     },
     {
-      val: 'u', code: 'KeyU', print: true,
+      val: 'г', code: 'KeyU', print: true,
     },
     {
-      val: 'i', code: 'KeyI', print: true,
+      val: 'ш', code: 'KeyI', print: true,
     },
     {
-      val: 'o', code: 'KeyO', print: true,
+      val: 'щ', code: 'KeyO', print: true,
     },
     {
-      val: 'p', code: 'KeyP', print: true,
+      val: 'з', code: 'KeyP', print: true,
     },
     {
-      val: '[', code: 'BracketLeft', print: true,
+      val: 'х', code: 'BracketLeft', print: true,
     },
     {
-      val: ']', code: 'BracketRight', print: true,
+      val: 'ъ', code: 'BracketRight', print: true,
     },
     {
       val: '\\', subval: '|', code: 'Backslash', print: true,
@@ -95,37 +95,37 @@ const keyboardKeysEn = [
       val: 'Caps', code: 'CapsLock',
     },
     {
-      val: 'a', code: 'KeyA', print: true,
+      val: 'ф', code: 'KeyA', print: true,
     },
     {
-      val: 's', code: 'KeyS', print: true,
+      val: 'ы', code: 'KeyS', print: true,
     },
     {
-      val: 'd', code: 'KeyD', print: true,
+      val: 'в', code: 'KeyD', print: true,
     },
     {
-      val: 'f', code: 'KeyF', print: true,
+      val: 'а', code: 'KeyF', print: true,
     },
     {
-      val: 'g', code: 'KeyG', print: true,
+      val: 'п', code: 'KeyG', print: true,
     },
     {
-      val: 'h', code: 'KeyH', print: true,
+      val: 'р', code: 'KeyH', print: true,
     },
     {
-      val: 'j', code: 'KeyJ', print: true,
+      val: 'о', code: 'KeyJ', print: true,
     },
     {
-      val: 'k', code: 'KeyK', print: true,
+      val: 'л', code: 'KeyK', print: true,
     },
     {
-      val: 'l', code: 'KeyL', print: true,
+      val: 'д', code: 'KeyL', print: true,
     },
     {
-      val: ';', code: 'Semicolon', print: true,
+      val: 'ж', code: 'Semicolon', print: true,
     },
     {
-      val: "'", code: 'Quote', print: true,
+      val: 'э', code: 'Quote', print: true,
     },
     {
       val: 'Enter', code: 'Enter', print: true,
@@ -139,31 +139,31 @@ const keyboardKeysEn = [
       val: '/', code: 'NumpadDivide', twinCode: 'Slash', print: true,
     },
     {
-      val: 'z', code: 'KeyZ', print: true,
+      val: 'я', code: 'KeyZ', print: true,
     },
     {
-      val: 'x', code: 'KeyX', print: true,
+      val: 'ч', code: 'KeyX', print: true,
     },
     {
-      val: 'c', code: 'KeyC', print: true,
+      val: 'с', code: 'KeyC', print: true,
     },
     {
-      val: 'v', code: 'KeyV', print: true,
+      val: 'м', code: 'KeyV', print: true,
     },
     {
-      val: 'b', code: 'KeyB', print: true,
+      val: 'и', code: 'KeyB', print: true,
     },
     {
-      val: 'n', code: 'KeyN', print: true,
+      val: 'т', code: 'KeyN', print: true,
     },
     {
-      val: 'm', code: 'KeyM', print: true,
+      val: 'ь', code: 'KeyM', print: true,
     },
     {
-      val: '<', code: 'Comma', print: true,
+      val: 'б', code: 'Comma', print: true,
     },
     {
-      val: '>', code: 'Period', print: true,
+      val: 'ю', code: 'Period', print: true,
     },
     {
       val: '/', subval: '?', code: 'Slash', twinCode: 'NumpadDivide', print: true,
@@ -206,4 +206,4 @@ const keyboardKeysEn = [
   ],
 ];
 
-export default keyboardKeysEn;
+export default keyboardKeysRu;

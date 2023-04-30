@@ -37,3 +37,8 @@
     border-color: #79C4FF;
     box-shadow: 1px 1px 17px rgba(0, 0, 0, 0.06);
 }
+
+.inf {
+    text-align: center;
+    padding-top: 20px;
+}

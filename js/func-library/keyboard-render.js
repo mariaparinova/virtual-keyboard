@@ -1,5 +1,9 @@
+import keyboardKeysRu from '../constants/keyboard-ru.js';
+import keyboardKeysEn from '../constants/keyboard-en.js';
+
 function createKeyboardButton(key) {
   const btnElem = document.createElement('div');
+
   btnElem.className = 'keyboard-btn';
   btnElem.dataset.code = key.code;
   btnElem.dataset.value = key.val;
@@ -37,8 +41,10 @@ function createKeyboardRow(keysRow) {
   return keyboardRow;
 }
 
-export default function createKeyboard(keyboardKeys) {
+export default function createKeyboard() {
+  const keyboardKeys = localStorage.getItem('language') === 'ru' ? keyboardKeysRu : keyboardKeysEn;
   const keyboardElem = document.createElement('div');
+
   keyboardElem.className = 'keyboard';
 
   keyboardKeys.forEach((keysRow) => keyboardElem.append(createKeyboardRow(keysRow)));

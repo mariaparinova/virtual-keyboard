@@ -1,0 +1,88 @@
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    max-width: 740px;
+    padding: 8px;
+    margin: 20px auto 0;
+    background-color: #101519;
+}
+
+.keyboard-line {
+    display: flex;
+    align-items: stretch;
+}
+
+.keyboard-line:nth-child(n+2) {
+    margin-top: 4px;
+}
+
+.keyboard-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    min-width: 28px;
+    padding: 4px;
+    margin: 0 2px;
+    font-size: 18px;
+    color: white;
+    background-color: #2d3135;
+}
+
+[data-code='Backspace'],
+[data-code='Enter'] {
+    flex-grow: 2;
+}
+
+[data-code='CapsLock'],
+[data-code='Tab'] {
+    flex-grow: 1.5;
+}
+
+[data-code='Space'] {
+    flex-grow: 6;
+}
+
+[data-code='ArrowUp'] {
+    flex-grow: 1.3;
+}
+
+.keyboard-btn:hover {
+    color: #2d3135;
+    background-color: #f6f8fA;
+}
+
+.keyboard-btn:active {
+    color: #ffffff;
+    background-color: #75a6cd;
+}
+
+[data-code='CapsLock'],
+[data-code='Tab'],
+[data-code='Backspace'],
+[data-code='Enter'],
+[data-code='Win'],
+[data-code='Delete'],
+[data-code^='Shift'],
+[data-code^='Alt'],
+[data-code^='Meta'],
+[data-code^='Control'] {
+    font-size: 12px;
+}
+
+.keyboard-btn-subval {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: max-content;
+    margin: 2px;
+    color: #606060;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.keyboard-btn.on-hold {
+    background-color: #75a6cd;
+}

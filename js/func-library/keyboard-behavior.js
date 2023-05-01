@@ -118,6 +118,14 @@ function printText(btnEl) {
     character = character.toUpperCase();
   }
 
+  if (document.querySelector('[data-code=ShiftLeft]').classList.contains('on-hold') || document.querySelector('[data-code=ShiftRight]').classList.contains('on-hold')) {
+    if (btnEl.dataset.subval) {
+      character = btnEl.dataset.subval;
+    } else {
+      character = character.toUpperCase();
+    }
+  }
+
   if (btnEl.dataset.print) {
     textArea.value = textStart + character + textEnd;
 
@@ -150,7 +158,7 @@ document.addEventListener('keydown', (event) => {
   }
 
   if (document.querySelector(`[data-code=${btnCode}]`)) {
-    removeHighlightButton(btnElem, btnCode);
+    highlightButton(btnElem, btnCode);
   }
 });
 

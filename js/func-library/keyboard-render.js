@@ -19,6 +19,8 @@ function createKeyboardButton(key) {
     subval.innerText = key.subval;
 
     btnElem.append(subval);
+
+    btnElem.dataset.subval = key.subval;
   }
 
   if (key.print) {

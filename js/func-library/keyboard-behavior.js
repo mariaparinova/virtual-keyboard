@@ -149,7 +149,9 @@ document.addEventListener('keydown', (event) => {
     checkCombBtnForSwitchLang(btnCode, cursorLocation);
   }
 
-  highlightButton(btnElem, btnCode);
+  if (document.querySelector(`[data-code=${btnCode}]`)) {
+    removeHighlightButton(btnElem, btnCode);
+  }
 });
 
 document.addEventListener('keyup', (event) => {
@@ -168,7 +170,9 @@ document.addEventListener('keyup', (event) => {
     isCtrl = false;
   }
 
-  removeHighlightButton(btnElem, btnCode);
+  if (document.querySelector(`[data-code=${btnCode}]`)) {
+    removeHighlightButton(btnElem, btnCode);
+  }
 });
 
 document.body.addEventListener('mousedown', (event) => {

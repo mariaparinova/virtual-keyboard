@@ -133,10 +133,10 @@ const keyboardKeysRu = [
   ],
   [
     {
-      val: 'Shift', code: 'ShiftLeft', twinCode: 'ShiftRight',
+      val: 'Shift', code: 'ShiftLeft',
     },
     {
-      val: '/', code: 'NumpadDivide', twinCode: 'Slash', print: true,
+      val: '/', code: 'NumpadDivide', print: true,
     },
     {
       val: 'я', code: 'KeyZ', print: true,
@@ -166,33 +166,33 @@ const keyboardKeysRu = [
       val: 'ю', code: 'Period', print: true,
     },
     {
-      val: '/', subval: '?', code: 'Slash', twinCode: 'NumpadDivide', print: true,
+      val: '/', subval: '?', code: 'Slash', print: true,
     },
     {
       val: '↑', code: 'ArrowUp', print: true,
     },
     {
-      val: 'Shift', code: 'ShiftRight', twinCode: 'ShiftLeft',
+      val: 'Shift', code: 'ShiftRight',
     },
   ],
   [
     {
-      val: 'Ctrl', code: 'ControlLeft', twinCode: 'ControlRight',
+      val: 'Ctrl', code: 'ControlLeft',
     },
     {
       val: 'Win', code: 'MetaLeft',
     },
     {
-      val: 'Alt', code: 'AltLeft', twinCode: 'AltRight',
+      val: 'Alt', code: 'AltLeft',
     },
     {
       val: ' ', code: 'Space', print: true,
     },
     {
-      val: 'Alt', code: 'AltRight', twinCode: 'AltLeft',
+      val: 'Alt', code: 'AltRight',
     },
     {
-      val: 'Ctrl', code: 'ControlRight', twinCode: 'ControlRight',
+      val: 'Ctrl', code: 'ControlRight',
     },
     {
       val: '←', code: 'ArrowLeft', print: true,

@@ -21,10 +21,6 @@ function createKeyboardButton(key) {
     btnElem.append(subval);
   }
 
-  if (key.twinCode) {
-    btnElem.dataset.twin = key.twinCode;
-  }
-
   if (key.print) {
     btnElem.dataset.print = key.print;
   }

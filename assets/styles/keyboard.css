@@ -31,6 +31,7 @@
     background-color: #2d3135;
     cursor: pointer;
     transition: all 300ms;
+    user-select: none;
 }
 
 [data-code='Backspace'],
